@@ -6,3 +6,52 @@ RESET
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: lightblue;
+}
+
+/*
+CONTAINER
+*/
+
+.containerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.bullet-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bullet {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.bullet.active {
+  color: #000;
+}
+
+.containerFlex {
+  display: flex;
+  align-items: center;
+}
+
+.containerBtn {
+  margin: 0 10px;
+}
