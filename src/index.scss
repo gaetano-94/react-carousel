@@ -1,12 +1,11 @@
-/*
-RESET
-*/
+/*RESET*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*COMMON*/
 body {
   background-image: url(./assets/img/R.jpg);
   background-repeat: no-repeat;
@@ -14,10 +13,7 @@ body {
   background-size: cover;
 }
 
-/*
-CONTAINER
-*/
-
+/*CONTAINER*/
 .containerFlex {
   display: flex;
   justify-content: center;
@@ -25,6 +21,16 @@ CONTAINER
   gap: 10px;
 }
 
+.containerFlex {
+  display: flex;
+  align-items: center;
+}
+
+.containerBtn {
+  margin: 0 10px;
+}
+
+/*BUTTON*/
 .btn {
   background: none;
   border: none;
@@ -33,6 +39,7 @@ CONTAINER
   font-size: 2rem;
 }
 
+/*BULLET*/
 .bullet-container {
   text-align: center;
   margin-bottom: 20px;
@@ -48,13 +55,4 @@ CONTAINER
 
 .bullet.active {
   color: #000;
-}
-
-.containerFlex {
-  display: flex;
-  align-items: center;
-}
-
-.containerBtn {
-  margin: 0 10px;
 }
